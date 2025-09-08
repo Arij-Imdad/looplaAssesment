@@ -24,8 +24,6 @@ app.use(cors({
     credentials: true
 }));
 
-console.log('testing')
-
 
  const port = process.env.PORT|| 8080
 

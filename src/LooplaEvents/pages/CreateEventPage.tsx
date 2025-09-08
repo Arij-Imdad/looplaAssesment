@@ -29,8 +29,6 @@ const EventForm: React.FC = () => {
       ...prev,
       [field]: value,
     }));
-    console.log('this cehck', this)
-
   };
 
   const validate = (): boolean => {
