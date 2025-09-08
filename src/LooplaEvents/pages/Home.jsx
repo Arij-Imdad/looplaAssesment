@@ -26,7 +26,7 @@ const HomePage = () => {
 
         setEvents(combinedEvents);
       } catch (error) {
-        // Handle error if needed
+        console.log('error')
       }
     };
 

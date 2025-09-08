@@ -82,7 +82,7 @@ const EventForm: React.FC = () => {
 
   return (
     <Box
-      maxWidth={500}
+      maxWidth='80%'
       mx="auto"
       mt={5}
       p={4}
